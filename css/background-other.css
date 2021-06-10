@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  background-color:  black /**/ ;
+}
+.cover-heading{
+  color:  black /**/ ;
+  text-shadow: none;
+}
+
+/* Custom default button */
+.btn-secondary {
+  color: lightgrey;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color:  black /**/ ;
+  border: none;
+}
+.btn-secondary:hover {
+  color: white;
+  background-color:  black /**/ ;
+  border: none;
+}

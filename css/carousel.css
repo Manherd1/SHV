@@ -1,0 +1,73 @@
+.standard {
+	margin: 10vh auto;
+	max-height: 30vh;
+	width: auto;
+}
+
+button {
+	background-color:  black  ;
+	color: #818181;
+	border: none;
+}
+.slick-prev:hover,
+.slick-next:hover {
+	color: #fff;
+	border: none;
+}
+.slick-prev {
+	background-color:  black /**/ ;
+	color: #818181;
+	border: none;
+	position: absolute;
+	bottom: 40vh; right: -5vw;
+}
+
+.slick-next {
+	background-color:  black /**/ ;
+	color: #818181;
+	border: none;
+	position: absolute;
+	bottom: 35vh; right: -5vW;
+}
+
+
+
+/* Shrink wrap strategy 2 */
+
+.easyzoom-flyout {
+    display: none;
+}
+
+/*.easyzoom img {
+    vertical-align: bottom;
+}
+.easyzoom-flyout {
+	text-align: center;
+    margin: auto 0;
+    max-width: 50vw;
+}*/
+
+
+
+
+@media (min-width: 48em) {
+
+	.standard {
+		max-height: 55vh;
+	}
+
+	/* Shrink wrap strategy 2 */
+
+	.easyzoom-flyout{
+	    display: inline-block;
+
+	}
+	.easyzoom img {
+	    vertical-align: bottom;
+	}
+	.easyzoom-flyout {
+		text-align: center;
+	    margin: auto 0;
+	    max-width: 65vw;
+	}
+}

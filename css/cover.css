@@ -1,0 +1,284 @@
+
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/*
+ * Base structure
+ */
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+h1 {
+  font-size: .1em;
+}
+
+
+.cover-container {
+  max-width: 95vw;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand  .masthead-brand-dwg {
+  margin-bottom: 0;
+}
+
+.masthead-brand {
+  display: none;
+}
+
+.nav-masthead {
+  display: none;
+}
+
+/*CORPS*/
+.your-class {
+  background-color: black ;
+}
+
+video {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.youtube-link {
+  width: 2em;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 1em;
+}
+.video-link {
+  color: lightgrey;
+  font-size: .9em;
+}
+
+  
+.masthead-brand-dwg {
+  float: left;
+  margin-left: -7rem;
+  }
+
+.expo-body {
+  text-align: left;
+  font-family: times;
+  font-size: 1em;
+}
+.text-expo {
+  line-height: 1.2;
+  text-align: left;
+  font-family: times;
+  font-size: 1em;
+}
+.mfp-title {
+  text-align: center;
+  font-family: times;
+  font-size: 1em;
+}
+.text-expo h4 {
+  text-align: center;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.sign {
+  line-height: 0.8;
+  float: right;
+  font-size: 1.2em;
+}
+.expo-body article{
+  margin: 4vh auto;
+  line-height: 1;
+}
+.expo-body img{
+  margin: 0.5vh;
+}
+article img{
+  cursor: zoom-in;
+}
+article a, .mfp-title a{
+  color: darkgrey;
+  text-decoration: underline;
+}
+
+.toggle {
+  float: right;
+  max-height: 20px;
+  border-style: none;
+}
+.btn-primary{
+  background-color: #3e3e3e;
+  color: white;
+}
+.toggle-off, .toggle-on {
+  background-color: #3e3e3e;
+  color: white;
+}
+.toggle-handle {
+  background-color: #637281;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3e3e3e;
+    border-color: #3e3e3e;
+}
+.toggle-off.btn {
+    padding-left: 20px;
+}
+.btn {
+  max-width: min-content;
+  line-height: 1;
+}
+.btn:hover {
+  color: white;
+}
+.toggle.btn {
+    min-width: 40px;
+    min-height: 30px;
+}
+
+.popup4 {
+  width: 80%;
+}
+.music-plastic {
+  width: 60%;
+}
+
+.contact{
+  position: fixed;
+  bottom: 2vh;
+  right: 3vw;
+  width: 4.2vh;
+}
+
+.contact-class{
+    margin: 2vh auto;
+    width: 100%;
+    font-family: times;
+    font-size: 1em;
+}
+.contact-class img{
+    width: 70%;
+}
+
+
+@media (min-width: 48em) {
+
+  .masthead-brand {
+    float: left;
+    display: none;
+  }
+  .nav-masthead {
+    float: right;
+    display: none;
+  }
+  
+  .masthead-brand-dwg {
+    float: left;
+    margin-left: -12rem;
+  }
+  .nav-masthead-dwg {
+    float: right;
+  }
+
+
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  margin: 0 .5rem;
+  font-weight: 500;
+}
+
+.cover-container {
+  max-width: 60em;
+}
+
+.expo-body article{
+  margin: 9vh auto;
+  line-height: 1.2;
+}
+
+.text-expo {
+  font-size: 1.2em;
+}
+
+.expo-body img{
+  margin: 1vh;
+}
+
+/*
+ * Title
+ */
+h1 {
+  color:  black /**/ ;
+  padding-bottom: 5vh;
+  font-size: .1em;
+  }
+
+video {
+  max-height: 70vh;
+}
+.youtube-link {
+  width: 2.5em;
+}
+
+img.mfp-img {
+    height: 99vh;
+    max-width: auto;
+}
+
+.popup4 {
+  width: 40vw;
+}
+.music-plastic {
+  width: 25vw;
+}
+
+/*
+ * Logo
+ */
+#logo_svh {
+  margin-bottom: .5em;
+}
+
+.contact-class{
+    font-size: 1.15em;
+}
+.contact-class img{
+    width: 25vw
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  margin-top: 3rem;
+  color: rgba(255, 255, 255, .5);
+}
+
+
+
+}

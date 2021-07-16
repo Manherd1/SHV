@@ -224,7 +224,7 @@ $('.popup9').magnificPopup({
 $('.popup10').magnificPopup({
     items: [
       {src: 'img/expo/15-A.jpg'},
-      {src: 'img/expo/15-M.jpg'},
+      {src: 'img/expo/11.jpg'},
       {src: 'img/expo/15-D.jpg'},
       {src: 'img/expo/15-E.jpg'},
       {src: 'img/expo/15-F.jpg'},
@@ -266,7 +266,7 @@ $('.popup11').magnificPopup({
 $('.popup12').magnificPopup({
     items: [
       {src: 'img/expo/25-A.jpg'},
-      {src: 'img/expo/dvd02/01-A.jpg'},
+/*    {src: 'img/expo/dvd02/01-A.jpg'},*/      
       {src: 'img/expo/dvd02/01-B.jpg'},
       {src: 'img/expo/dvd02/02.jpg'},
       {src: 'img/expo/dvd02/03.jpg'},

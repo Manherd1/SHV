@@ -265,8 +265,8 @@ $('.popup11').magnificPopup({
 
 $('.popup12').magnificPopup({
     items: [
-      {src: 'img/expo/25-A.jpg'},
-/*    {src: 'img/expo/dvd02/01-A.jpg'},*/      
+      /*{src: 'img/expo/25-A.jpg'},*/
+      {src: 'img/expo/dvd02/01-A.jpg'},      
       {src: 'img/expo/dvd02/01-B.jpg'},
       {src: 'img/expo/dvd02/02.jpg'},
       {src: 'img/expo/dvd02/03.jpg'},
